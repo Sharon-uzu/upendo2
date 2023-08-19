@@ -1,0 +1,1392 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+SA+Beginner:wght@500&family=Lato:wght@300&family=Playfair+Display:ital@0;1&family=Poppins&display=swap');
+*{
+  padding: 0;
+  margin: 0;
+}
+body{
+  width: 100%;
+  background-color: #e4f4ff;
+  background-color: #f8f9fa ;
+  font-family: 'Edu SA Beginner', cursive;
+  font-family: 'Lato', sans-serif;
+  font-family: 'Playfair Display', serif;
+  font-family: 'Poppins', sans-serif;
+  position: relative;
+  scrollbar-width: thin;
+  scrollbar-color: #4d7fff #ddd;
+}
+
+/* ::-webkit-scrollbar {
+  width: 2px;
+} */
+
+
+/* Track */
+/* ::-webkit-scrollbar-track {
+  background: #fff;
+} */
+
+/* Handle */
+/* ::-webkit-scrollbar-thumb {
+  background: #642b31;
+} */
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+.logo{
+  width: 60%;
+  margin: auto;
+  margin-bottom: 20px;
+}
+.logo img{
+  width: 100%;
+}
+a{
+  text-decoration: none;
+}
+
+/* FORM STARTS HERE */
+.form{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.form .section{
+  width: 40%;
+  margin-top: 60px;
+}
+
+.form .section .logo{
+  text-align: center;
+}
+
+.form .section form {
+  width: 100%;
+  background-color: #fff;
+  padding: 30px 0;
+  border-color: #edf2f9;
+  -webkit-box-shadow: 0 0.75rem 1.5rem rgba(18, 38, 63, 0.03);
+  box-shadow: 0 0.75rem 1.5rem rgba(18, 38, 63, 0.03);
+  border-radius: 6px;
+  border-bottom-left-radius: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.form .section form h3{
+  text-align: center;
+  width: 100%;
+  line-height: 1.5;
+  /* font-weight: 600; */
+  font-size: 2rem;
+  color: #642b31;
+  margin-bottom: 20px;
+}
+
+.form .section form p{
+  width: 85%;
+  font-size: 16px;
+  color: #642b31;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+.form .section form p span{
+  color: red;
+}
+
+.form .section form div{
+  width: 85%;
+}
+.form .section form .input{
+  width: 85%;
+  margin-bottom: 20px;
+  border: 2px solid #5e5e5e;
+  height: 55px;
+  padding-left: 10px;
+  font-size: .9375rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #12263f;
+  background-color: #fff;
+  background-clip: padding-box;
+  border-radius: 6px;
+  border-bottom-left-radius: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.form .section form .input i{
+  height: 100%;
+  display: flex;
+  width: 20px;
+  align-items: center;
+}
+.form .section form .input i .icon{
+  font-size: 40px;
+  color: #642b31;
+}
+.form .section form .input input{
+  height: 100%;
+  width: 93%;
+}
+
+.form .section form .input select{
+  height: 100%;
+  width: 94%;
+}
+.form .section form .remember{
+  display: flex;
+  justify-content: space-between;
+}
+
+.form .section form .submit{
+  width: 100%;
+  background-color: #642b31;
+  color: #fff;
+  margin-top: 25px;
+  border-radius: 6px;
+  border-bottom-left-radius: 0;
+  height: 45px;
+  font-size: 19px;
+  cursor: pointer;
+}
+
+.form .section form .acct{
+  width: 60%;
+  height: 35px;
+  align-items: center;
+  margin: 25px 0;
+  display: flex;
+  color: #5e5e5e;
+  justify-content: space-between;
+}
+.form .section form .acct span{
+  font-size: 16.5px;
+}
+
+.form .section form .acct .sign{
+  color: #100f0f;
+  font-size: 17px;
+  font-weight: 700;
+}   
+
+.form .section form .copy{
+  color: #5e5e5e;
+  text-align: center;
+  font-weight: 500;
+}
+
+
+/* FORM ENDS HERE */
+
+
+/* header starts here */
+.header{
+  height: 80px;
+  width: 100%;
+  background-color: #642b31;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.header section{
+  width: 90%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header div{
+  width: 40%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.header div  h2{
+  color: #fff;
+  font-size: 35px;
+}
+
+.header div button{
+  color: #fff;
+  padding: 0 15px;
+  height: 40px;
+  border-radius: 6px;
+  border-bottom-left-radius: 0;
+}
+
+.header div .icon{
+  color: #fff;
+  font-size: 24px;
+}
+.header div .icon-group{
+  margin-right: 20px;
+  color: #fff;
+  margin-top: 5px;
+  font-size: 15px;
+}
+
+.header section .nav1{
+  align-items: center;
+}
+.header section .nav2{
+  justify-content: end;
+  position: relative;
+}
+
+.dropdown{
+  position: absolute;
+  top: 3rem;
+}
+.drop.active{
+  width: 100%;
+  opacity: 1;
+  /* position: absolute; */
+  background-color: #fff;
+  display: block;
+  padding: 20px 0;
+  border-radius: 5px;
+  box-shadow: 0 0.75rem 1.5rem rgba(18, 38, 63, 0.03);
+
+}
+
+.kyc{
+  right: 30px;
+}
+
+
+.drop.inactive{
+  opacity: 0;
+  
+}
+
+.drop::before{
+  position: absolute;
+  height: 20px;
+  background-color: #fff;
+  content: '';
+  right: 7px;
+  width: 20px;
+  top: -10px;
+  transform: rotate(45deg);
+}
+
+.dropdown h4{
+  color: #100f0f;
+  font-size: 16px;
+  width: 80%;
+  margin: auto;
+  padding: 0;
+  margin-bottom: 8px;
+}
+.dropdown p{
+  color: #5e5e5e;
+  font-size: 14px;
+  width: 60%;
+  margin: auto;
+  margin-left: 20px;
+  margin-bottom: 8px;
+}
+.dropdown button{
+  color: #100f0f;
+  font-size: 13px;
+  width: 70%;
+  margin: auto;
+  margin-left: 20px;
+  background-color: #6861ce;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+.dropdown h5{
+  color: #100f0f;
+  font-size: 15px;
+  width: 80%;
+  margin: auto;
+  padding: 10px 5px;
+  margin-bottom: 5px;
+}
+
+.dropdown h5:hover{
+  background-color: #a9afbbd1;
+}
+.dropdown h6{
+  color: #100f0f;
+  font-size: 15px;
+  width: 80%;
+  margin: auto;
+  border-top: 1px solid #a9afbbd1;
+  padding-top: 10px;
+}
+
+.ver{
+  width: 100%;
+  color: #fff;
+  font-size: 15px;
+  padding: 8px 0;
+  text-align: center;
+  background-color: #12263f;
+  border-radius: 0;
+}
+
+/* header ends here */
+
+
+
+/* SIDEBAR STARTS HERE */
+
+.side{
+  background-color: #fff;
+  /* width: 15%; */
+  height: 100vh;
+  padding:0 0 20px 0;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  box-shadow: 4px 4px 10px rgba(69, 65, 78, 0.06);
+
+}
+
+.logo-div{
+  text-align: end;
+}
+.logo-div img{
+  width: 200px;
+
+}
+
+
+.side a{
+  width: 90%;
+  margin: auto;
+  color: #8d9498;
+}
+.side .name{
+  border-bottom: 1px solid #a9afbbd1;
+  padding-bottom: 10px;
+  flex-wrap: wrap;
+  display: flex;
+  margin-bottom: 10px;
+  
+}
+.side .name div{
+  cursor: pointer;
+  margin-bottom: 0;
+}
+.side .name h4{
+  width: 85%;
+  color: #8d9498;
+}
+ .accts.active{
+  display: block;
+  font-size: 15px;
+  margin-top: 13px;
+  background-color: transparent;
+  color: #8d9498;
+}
+.accts.inactive{
+  display: none;
+}
+.side .name .icon{
+  font-size: 10px;
+}
+.side div{
+  width: 95%;
+  margin: auto;
+  display: flex;
+  padding: 9px 0 9px 5px;
+  justify-content: center;
+  align-items: center;
+  transition: all .5s ease-in;
+}
+
+.side a div:hover{
+  background-color: #642b31;
+  border-radius: 10px;
+  color: #fff;
+}
+.side div .active{
+  background-color: #642b31;
+  /* padding: 15px 0 15px 5px; */
+  border-radius: 10px;
+  color: #fff;
+}
+.side section{
+  padding: 0;
+  margin: 0;
+}
+.side div h4{
+  width: 85%;
+  font-size: 16px;
+  font-weight: 500;
+  margin-top: 9px;
+  margin-left: 10px;
+}
+.side div .icon{
+  font-size: 21px;
+}
+.side .actives{
+  background-color: #642b31;
+  /* padding: 15px 0 15px 5px; */
+  border-radius: 10px;
+  color: #fff;
+}
+.side .active{
+  background-color: #642b31;
+  /* padding: 15px 0 15px 5px; */
+  border-radius: 10px;
+  color: #fff;
+}
+
+.side .bar{
+  background-color: #642b31;
+  margin: 0;
+  width: 100%;
+  display: flex;
+  height: 80px;
+  align-items: center;
+}
+.side .bar .icon{
+  margin: auto;  
+  color: #fff;
+  font-size: 23px;
+}
+
+.side2{
+  display: none;
+}
+.media-bar{
+  display: none;
+}
+
+/* SIDEBAR ENDS HERE */
+
+
+
+/* DASHBOARD STARTS HERE */
+
+.dashb{
+  background-color: #f8f9fa ;
+  overflow-x: hidden;
+}
+.dashb .dashboard{
+  display: flex;
+  justify-content: space-between;
+}
+
+.dashb .dashboard main{
+  width: 100%;
+  /* padding: 25px 0; */
+}
+
+.dashb .dashboard main .left{
+  padding: 20px;
+}
+.dashb .dashboard main h2{
+  font-size: 28px;
+  font-weight: 600;
+}
+
+.dashb .dashboard main .cards-container{
+  width: 98%;
+  display: flex;
+  margin-top: 60px;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.dashb .dashboard main .cards-container .card1{
+  width: 24.5%;
+  background-color: #fff;
+  display: flex;
+  border-radius: 10px;
+  justify-content: space-around;
+  box-shadow: 4px 4px 10px rgba(69, 65, 78, 0.06);
+  margin-bottom: 20px;
+  padding: 20px 0;
+  align-content: center;
+}
+
+.dashb .dashboard main .cards-container .card1 .icon-card{
+  width: 20%;
+  background-color: #6861ce;
+  border-radius: 8px;
+  height: 45px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.dashb .dashboard main .cards-container .card1 .icon-card .icons{
+  font-size: 16px;
+  color: #fff;
+}
+
+.dashb .dashboard main .cards-container .card1 .card-text{
+  width: 65%;
+}
+
+.dashb .dashboard main .cards-container .card1 .card-text h3{
+ font-size: 16px;
+ font-weight: 700;
+ margin-bottom: 10px;
+}
+
+.dashb .dashboard main .cards-container .card1 .card-text p{
+  font-size: 14px;
+  font-weight: 500;
+  color: #8d9498;
+ }
+
+
+
+
+
+
+
+/* DASHBOARD ENDS HERE */
+
+
+/* TRANSACTION HISTORY STARTS HERE */
+.transaction{
+  width: 98%;
+  margin-top: 50px;
+  background-color: #f8f9fa;
+  box-shadow: 4px 4px 10px rgba(69, 65, 78, 0.06);
+  padding: 40px;
+}
+.menu{
+  display: flex;
+  
+}
+
+.menu span{
+  width: 33%;
+  border-bottom: 1px solid #5e5e5e;
+  padding: 15px 0;
+  text-align: center;
+}
+
+.menu span:hover{
+  border: 1px solid #a9afbbd1;
+  border-bottom: none;
+}
+.transaction .table{
+  box-shadow: 4px 4px 10px rgba(69, 65, 78, 0.06);
+  padding: 30px ;
+}
+.transaction span{
+  background-color: transparent;
+}
+.transaction .first{
+  display: flex;
+  margin-top: 5px;
+}
+.transaction .first div{
+  width: 50%;
+  text-align: end;
+}
+
+.transaction .first div .no{
+  width: 30px;
+  border: 1px solid #5e5e5e;
+  border-radius: 6px;
+  border-bottom-left-radius: 0;
+  height: 35px;
+}
+
+.transaction .first div .search{
+  width: 30%;
+  border: 1px solid #5e5e5e;
+  border-radius: 6px;
+  height: 35px;
+  border-bottom-left-radius: 0;
+}
+
+.transaction table{
+  margin-top: 40px;
+  width: 100%;
+}
+
+.transaction table tr{
+  border-bottom: 1px solid #a9afbbd1;
+}
+
+.transaction table th{
+  padding: 16px 0;
+  background-color: transparent;
+}
+.transaction table .table1 th{
+  width: 27.5%;
+  background-color: transparent;
+}
+
+.transaction table .table2 th{
+  width: 20.5%;
+  background-color: transparent;
+}
+.transaction table td{
+  padding: 16px 0;
+  font-size: 15px;
+  background-color: transparent;
+}
+.transaction table tr .status{
+  /* width: 10px; */
+  /* background-color: #f25961; */
+  
+  border-radius: 10px;
+}
+
+.tab1.active{
+  display: block;
+}
+
+.tab1.inactive{
+  display: none;
+}
+
+.tab2.active{
+  display: block;
+}
+
+.tab2.inactive{
+  display: none;
+}
+
+.tab3.active{
+  display: block;
+}
+
+.tab3.inactive{
+  display: none;
+}
+
+/* TRANSACTION HISTORY ENDS HERE */
+
+
+/* Send Message STARTS HERE */
+.send-message{
+  margin-top: 70px;
+}
+
+.send-message h2{
+  font-size: 30px;
+  margin-bottom: 30px;
+  text-align: center;
+
+}
+
+.send-message form{
+  width: 50%;
+  margin: auto;
+  background-color: #fff;
+  box-shadow: 4px 4px 10px rgba(69, 65, 78, 0.06);
+  border-radius: 20px;
+  padding: 30px 30px;
+
+}
+
+.send-message form textarea{
+  border: 2px solid #8d9498;
+  width: 100%;
+  padding-left: 10px;
+  border-radius: 5px;
+  height: 120px;
+  border-radius: 6px;
+  border-bottom-left-radius: 0;
+}
+
+.send-message form  p{
+  font-size: 15px ;
+  color: #5e5e5e;
+  margin: 10px 0;
+}
+
+.send-message form .input{
+  border: 2px solid #8d9498;
+  width: 100%;
+  padding-left: 10px;
+  border-radius: 5px;
+  height: 55px;
+  border-radius: 6px;
+  border-bottom-left-radius: 0;
+}
+
+.send-message form select{
+  border: 2px solid #8d9498;
+  width: 100%;
+  padding-left: 10px;
+  border-radius: 6px;
+  border-bottom-left-radius: 0;
+  height: 50px;
+}
+
+.send-message form .file{
+  border: 2px solid #8d9498;
+  width: 100%;
+  padding-left: 10px;
+  border-radius: 6px;
+  border-bottom-left-radius: 0;
+  height: 50px;
+  display: flex;
+  align-items: center;
+}
+
+.send-message form .submit{
+  background-color: #642b31;
+  width: 100%;
+  padding-left: 10px;
+  border-radius: 6px;
+  border-bottom-left-radius: 0;
+  height: 50px;
+  margin-top: 20px;
+  color: #fff;
+  font-size: 19px;
+}
+.preview{
+  margin-top: 20px;
+}
+.preview .image-container{
+  width: 100px;
+  height: 100px;
+}
+
+.preview .image-container img{
+  width: 100%;
+  height: 100%;
+}
+
+.preview .del{
+  margin-left: 30px;
+}
+.preview button{
+  background-color: #642b31;
+  color: #fff;
+  padding: 5px;
+  border-radius: 7px;
+  border-bottom-left-radius: 0;
+  margin-top: 20px;
+}
+
+/* Send Request ENDS HERE */
+
+/* FINANCE STARTS HERE */
+  .finance{
+    width: 90%;
+    margin: auto;
+    box-shadow: 4px 4px 10px rgba(69, 65, 78, 0.06);
+    border-radius: 20px;
+    padding: 30px 0;
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .finance .amount{
+    width: 55%;
+    height: 70vh;
+    overflow-y: scroll;
+    background-color: #fff;
+    padding:35px;
+    border-radius: 6px;
+    border-bottom-left-radius: 0;
+  }
+
+  .finance .amount .flex{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #a9afbbd1;
+  }
+
+  .finance .amount .flex h2{
+    cursor: pointer;
+    width: 48%;
+    font-size: 23px;
+    border: 1px solid transparent;
+    padding: 15px 0;
+    text-align: center;
+    border-radius: 5px;
+    
+  }
+  .finance .amount .flex h2:hover{
+    border: 1px solid #a9afbbd1;
+    border-bottom: none;
+  }
+
+  .finance .amount .cards.active{
+    border: none;
+    border: 2px solid #a9afbbd1;
+    margin-top: 30px;
+    display: flex;
+    height: 80px;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 6px;
+    border-bottom-left-radius: 0;
+  }
+
+  .finance .amount .cards{
+    border: none;
+    border: 2px solid #a9afbbd1;
+    margin-top: 30px;
+    display: flex;
+    height: 80px;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 6px;
+    border-bottom-left-radius: 0;
+  }
+
+  .finance .amount .cards.inactive{
+    display: none;
+  }
+
+  .finance .amount .cards img{
+    width: 60px;
+    height: 60px;
+    border-radius: 60px;
+  }
+
+  .finance .amount .cards .info{
+    width: 31%;
+  }
+
+  .finance .amount .cards .info div{
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .finance .amount .cards h3, h4{
+    font-size: 19px;
+  }
+
+  
+
+  
+
+  .finance .total{
+    width: 40%;
+    text-align: center;
+    height: 70vh;
+    background-color: #fff;
+    flex-direction: column;
+    border-radius: 6px;
+    border-bottom-left-radius: 0;
+    
+  }
+
+  .finance .total div{
+    width: 90%;
+    margin: auto;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 4px 4px 10px rgba(69, 65, 78, 0.06);
+    padding: 20px 0;
+    margin-bottom: 10%;
+    margin-top: 40px;
+  }
+
+  
+
+  .finance .total button{
+    padding: 20px;
+    background-color: #642b31;
+    color: #fff;
+    border-radius: 7px;
+    border-bottom-left-radius: 0;
+  }
+
+
+/* FINANCE ENDS HERE */
+
+/* UserRequest */
+.request{
+  width: 80%;
+  margin: auto;
+  background-color: #fff;
+  box-shadow: 4px 4px 10px rgba(69, 65, 78, 0.06);
+  border-radius: 20px;
+  padding: 30px 0;
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+}
+ .request .amount{
+  width: 90%;
+  border: none;
+  overflow-y: scroll;
+}
+
+.request .amount h2{
+  text-align: center;
+}
+
+ .request .cards button{
+  padding:10px 15px;
+  border-radius: 6px;
+  border-bottom-left-radius: 0;
+  color: #642b31;
+}
+
+
+/* Assign Officers Modal starts here */
+
+.modal1{
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.modal1 .modal1-content{
+  background-color: #fff;
+  height: 80%;
+  width: 50%;
+  border-radius: 6px;
+  
+}
+
+.modal1 .modal1-content .close{
+  width: 97%;
+  display: flex;
+  justify-content: end;
+}
+
+.modal1 .modal1-content .close button{
+  background-color: #100f0f;
+  color: #fff;
+  margin-top: 10px;
+  padding: 3px 5px;
+  font-size: 18px;
+  font-weight: 700;
+  border-radius: 3px;
+
+}
+
+.modal1 .modal1-content h3{
+  margin-top: 20px;
+  text-align: start;
+  width: 90%;
+  margin: auto;
+  font-size: 20px;
+  margin-bottom: 15px;
+}
+
+.modal1 .modal1-content h3 span{
+  font-weight: 500;
+  width: 100%;
+  
+}
+
+.modal1 .modal1-content h3 .title{
+  font-weight: 700;
+  font-size: 24px;
+  margin-right: 10px;
+}
+
+.modal1 .modal1-content  .textarea{
+  width: 90%;
+  margin: auto;
+  margin-top: 20px;
+}
+
+.modal1 .modal1-content  .textarea textarea{
+  border: 1px solid #a9afbbd1;
+  width: 90%;
+  margin-bottom: 30px;
+  border-radius: 7px;
+  border-bottom-left-radius: 0;
+}
+
+.modal1 .modal1-content .textarea button {
+  width: 90%;
+  background-color: #642b31;
+  color: #fff;
+  font-size: 19px;
+  font-weight: 600;
+  padding: 5px 0;
+  border-radius: 7px;
+  border-bottom-left-radius: 0;
+}
+
+
+
+
+/* Assign Officers Modal starts here */
+
+@media screen and (max-width:1000px){
+  .form .section{
+    width: 89%;
+  }
+  .form .section form h3{
+    font-size: 25px;
+  }
+  .form .section form p{
+    font-size: 14px;
+  }
+  .form .section form .input i .icon{
+    font-size: 15px;
+  }
+
+  .form .section form .remember{
+     font-size: 14px;
+  }
+
+  .form .section form .submit{
+    font-size: 16px;
+  }
+  .form .section form .acct{
+    width: 75%;
+  }
+
+  .form .section form .acct span{
+    font-size: 14px;
+  }
+
+  .form .section form .acct .sign{
+    font-size: 14px;
+  }
+
+  /* header starts here */
+  .header section .nav1{
+    display: none;
+  }
+  .header  .nav2{
+    width: 100%;
+  }
+  
+  /* SIDEBAR STARTS HERE */
+
+.side{
+  height: auto;
+  display: none;
+}
+
+.side2.active{
+  width: 80%;
+  height: 100vh;
+  position: absolute;
+  background-color: #fff;
+  /* width: 15%; */
+  height: 100vh;
+  padding:0 0 20px 0;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  box-shadow: 4px 4px 10px rgba(69, 65, 78, 0.06);
+  z-index: 10;
+}
+.side2.inactive{
+  display: none;
+}
+
+
+.side2 a{
+  width: 90%;
+  margin: auto;
+  color: #8d9498;
+}
+.side2 .name{
+  border-bottom: 1px solid #a9afbbd1;
+  padding-bottom: 10px;
+  flex-wrap: wrap;
+  display: flex;
+  margin-bottom: 10px;
+  
+}
+.side2 .name div{
+  cursor: pointer;
+  margin-bottom: 0;
+}
+.side2 .name h4{
+  width: 85%;
+  color: #8d9498;
+}
+ .accts.active{
+  display: block;
+  font-size: 15px;
+  margin-top: 13px;
+  background-color: transparent;
+  color: #8d9498;
+}
+.accts.inactive{
+  display: none;
+}
+.side2 .name .icon{
+  font-size: 10px;
+}
+.side2 div{
+  width: 95%;
+  margin: auto;
+  display: flex;
+  padding: 9px 0 9px 5px;
+  justify-content: center;
+  align-items: center;
+  transition: all .5s ease-in;
+}
+
+.side2 a div:hover{
+  background-color: #642b31;
+  border-radius: 10px;
+  color: #fff;
+}
+.side2 div .active{
+  background-color: #642b31;
+  /* padding: 15px 0 15px 5px; */
+  border-radius: 10px;
+  color: #fff;
+}
+.side2 section{
+  padding: 0;
+  margin: 0;
+}
+.side2 div h4{
+  width: 85%;
+  font-size: 16px;
+  font-weight: 500;
+  margin-top: 9px;
+  margin-left: 10px;
+}
+.side2 div .icon{
+  font-size: 21px;
+}
+.side2 .actives{
+  background-color: #642b31;
+  /* padding: 15px 0 15px 5px; */
+  border-radius: 10px;
+  color: #fff;
+}
+
+.side2 .bar{
+  background-color: #642b31;
+  margin: 0;
+  width: 100%;
+  height: 80px;
+}
+.side2 .bar .icon{
+  margin: auto;  
+  color: #fff;
+  font-size: 23px;
+}
+.media-bar{
+  position: absolute;
+  top: 27px;
+  left: 20px;
+  z-index: 1000;
+  color: #fff;
+  font-size: 20px;
+  display: block;
+}
+
+/* DASHBOARD STARTS HERE */
+  .dashb{
+    background-color: #f8f9fa ;
+    overflow-x: hidden;
+    /* overflow-x: auto; */
+    /* overflow-y: hidden;
+    white-space: wrap;
+    overflow-x: visible;
+    */
+  }
+  .dashb .dashboard main h2{
+    font-size: 22px;
+  }
+
+  .dashb .dashboard main .cards-container .card1{
+    width: 48%;
+    
+  }
+  .dashb .dashboard main .cards-container .card1 .icon-card{
+    width: 25%;
+    
+  }
+  .dashb .dashboard main .cards-container .card1 .card-text h3{
+    font-size: 14px;
+    
+   }
+
+   /* History */
+
+   .transaction {
+    width: 100%;
+    overflow-x: auto;
+    border: 1px solid #ccc;
+    max-width: 100%; 
+    padding: 10px 0;
+   }
+
+   .transaction table{
+    border-collapse: collapse;
+    width: 100%;
+   }
+   .dashb .dashboard main .left {
+    padding: 10px;
+  }
+  .transaction .table{
+    width: 100%;
+    overflow-x: auto;
+    border: 1px solid #ccc;
+    max-width: 100%;
+  }
+
+  .transaction table{
+    border-collapse: collapse;
+    width: 550px;
+  }
+
+  /* FINANCE */
+
+  .finance{
+    flex-direction: column-reverse;
+  }
+
+  .finance .amount{
+    width: 100%;
+    margin-top: 20px;
+    padding: 10px;
+  }
+  .finance .total{
+    width: 100%;
+    height: auto;
+    padding: 30px 0;
+    
+  }
+
+  /* UserRequest */
+  .request{
+    width: 100%;
+    overflow-y: scroll;
+   }
+   .request .amount{
+    width: 95%;
+    padding: 0;
+    
+  }
+  
+  .finance .amount .cards h3, h4 {
+    font-size: 15px;
+  }
+
+  .finance .amount .cards span {
+    font-size: 15px;
+}
+.request .amount .cards .info {
+  width: fit-content;
+}
+
+.request .cards button{
+  padding:10px 7px;
+  
+}
+
+.request .amount .cards{
+  width: 100%;
+}
+
+/* Assign Officers Modal starts here */
+.modal1 .modal1-content .close button{
+  font-size: 14px;
+
+}
+
+.modal1 .modal1-content h3{
+  font-size: 17px;
+}
+
+.modal1 .modal1-content h3 span{
+  font-weight: 500;
+  width: 100%;
+  
+}
+.modal1 .modal1-content .textarea button {
+  font-size: 16px;
+}
+
+.modal1 .modal1-content h3 .title{
+  font-size: 19px;
+}
+.send-message form{
+  width: 90%;
+  
+}
+.send-message form .submit{
+  font-size: 16px;
+}
+
+.modal1 .modal1-content{
+  width: 90%;
+  
+}
+
+
+
+
+
+
+
+
+
+
+}
+
+@media screen and (max-width:310px){
+  .dashb .dashboard main .cards-container{
+    justify-content: center;
+  }
+  .dashb .dashboard main .cards-container .card1{
+    width: 90%;
+    
+  }
+  
+}
+
+@media screen and (max-width:1100px){
+  .header div{
+    width: 50%;
+   
+  }
+}
+
+
+@media screen and (max-width:440px){
+
+  .finance .amount{
+    width: 100%;
+    overflow: auto;
+    max-width: 90%;
+    margin: auto;
+    scrollbar-width: thin;
+    scrollbar-color: #4d7fff #ddd;
+  }
+
+  .finance .amount .cards.active{
+    border-collapse: collapse;
+    width: 400px;
+  }
+
+  .request .users-c{
+    width: 100%;
+    overflow: auto;
+    max-width: 90%;
+    margin: auto;
+    scrollbar-width: thin;
+    scrollbar-color: #4d7fff #ddd;
+  }
+  .request .users-c .cards{
+    border-collapse: collapse;
+      width: 400px;
+     
+  }
+
+
+}
+
+@media screen and (max-width:400px){
+
+}
